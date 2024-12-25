@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Анализатор</title>
+</head>
+<body>
+  <div id="popup-window">
+    <div id="controls">
+      <button id="close-btn">Закрыть</button>
+      <button id="refresh-btn">Обновить</button>
+    </div>
+    <h2 id="header">Уровень агрессии: —</h2>
+    <div id="status">
+      <img id="indicator" src="neutral.png" alt="Уровень агрессивности">
+    </div>
+  </div>
+  <div id="audio-controls">
+    <button id="start-recording">Начать запись</button>
+    <button id="stop-recording" disabled>Остановить запись</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

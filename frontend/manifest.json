@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Анализатор агрессивности созвонов",
+    "version": "1.0",
+    "description": "Определяет уровень агрессивности аудио и обновляет интерфейс.",
+    "permissions": ["activeTab", "storage", "tabCapture"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "img/icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "img/icon.png"
+    }
+  }
+  
